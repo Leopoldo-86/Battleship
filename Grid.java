@@ -6,13 +6,13 @@
  * 
  */
 
-//INSTANCE VARIABLES ================
-public class Grid {//                |
+//INSTANCE VARIABLES ====================
+public class Grid {//                    |
 	private int row;//               |
 	private int col;//               |
 	public boolean[][] grid;//       |
 	private Ship ships;//            |
-//====================================
+//=======================================
 	
 // CONSTRUCTOR	
 public Grid (int rows, int cols){
