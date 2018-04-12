@@ -115,7 +115,7 @@ public class BattleshipGame {
 //                                                                     |		
         }//                                                            |
 //                                                                     |			
-	}//                                                                |
+	}//                                                            |
 // ####################################################################|
     
     
@@ -165,17 +165,17 @@ public class BattleshipGame {
 		//IT'S STORING AN ARRAY OF PLAYERS INTO THE VARIABLES
 		Player[] tempPlayer;
 		
- // VALIDATING THE TOTAL OF PLAYERS ###################################################################|
-		int totalOfPlayers;//                                                                          |
-		do {//                                                                                         |
+ // VALIDATING THE TOTAL OF PLAYERS ############################################################################## |
+		int totalOfPlayers;//                                                                              |
+		do {//                                                                                             |
 			totalOfPlayers = inputToInt("Please, enter the number of players that will play the game");
 			//                                                                                         |
 			if(totalOfPlayers>4 || totalOfPlayers<1){//                                                |
-				System.out.println("There is only 1 up to 4 players for the game.");//                 |
+				System.out.println("There is only 1 up to 4 players for the game.");//             |
 			}//                                                                                        |
-		}while (totalOfPlayers>4 || totalOfPlayers<1);//                                               |
-		//                                                                                             |
-		tempPlayer = new Player[totalOfPlayers];//#####################################################|
+		}while (totalOfPlayers>4 || totalOfPlayers<1);//                                                   |
+		//                                                                                                 |
+		tempPlayer = new Player[totalOfPlayers];//######################################################## |
 		
 		for(int i = 0; i< tempPlayer.length; i++) {
 			
