@@ -49,13 +49,13 @@ public class Ship {
 		//                                                                                             |
 		// THIS " if statement " IS HERE IN ORDER TO IDENTIFY THAT THE SHIP WON'T EXCEED THE GRID.     |
 		if(this.isVertical) {//                                                                        |
-			if(positionTemp[0][0] > gridRow-this.length) {//                                           |
-			   positionTemp[0][0] = gridRow-this.length;//                                             |
-			}//                                                                                        | 	
+			if(positionTemp[0][0] > gridRow-this.length) {//                                       |
+			   positionTemp[0][0] = gridRow-this.length;//                                         |
+			}//                                                                                    | 	
 		}else{//                                                                                       |
-			if(positionTemp[0][1] > gridCol-this.length) {//                                           |
-				positionTemp[0][1] = gridCol-this.length;//                                            |
-			}//                                                                                        |
+			if(positionTemp[0][1] > gridCol-this.length) {//                                       |
+				positionTemp[0][1] = gridCol-this.length;//                                    |
+			}//                                                                                    |
 		}//                                                                                            |
 		 //                                                                                            |
 		 //                                                                                            |
